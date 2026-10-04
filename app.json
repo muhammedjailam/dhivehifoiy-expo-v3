@@ -1,0 +1,135 @@
+{
+  "expo": {
+    "name": "Dhivehi Foiy",
+    "slug": "dhivehi-foiy",
+    "version": "3.0.0",
+    "icon": "./assets/icons/ios-light.png",
+    "scheme": ["dhivehifoiy"],
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "entitlements": {
+        "aps-environment": "production"
+      },
+      "usesAppleSignIn": true,
+      "requireFullScreen": true,
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio", "remote-notification"],
+        "UIFileSharingEnabled": false,
+        "LSSupportsOpeningDocumentsInPlace": false,
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "icon": {
+        "dark": "./assets/icons/ios-dark.png",
+        "light": "./assets/icons/ios-light.png",
+        "tinted": "./assets/icons/ios-tinted.png"
+      },
+      "associatedDomains": ["applinks:dhivehifoiy.mv"],
+      "bundleIdentifier": "com.xylamtech.books"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/android-icon.png",
+        "monochromeImage": "./assets/icons/android-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.xylamtech.books",
+      "googleServicesFile": "./google-services.json",
+      "allowBackup": false,
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "dhivehifoiy.mv",
+              "pathPrefix": "/"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ],
+      "permissions": [
+        "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/icons/splash-icon-dark.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "image": "./assets/icons/splash-icon-light.png",
+            "backgroundColor": "#0F0D14"
+          }
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/MVFaseyha.otf",
+            "./assets/fonts/MVWaheed.otf"
+          ]
+        }
+      ],
+      [
+        "expo-localization",
+        {
+          "supportsRTL": true,
+          "forcesRTL": true
+        }
+      ],
+      "@react-native-google-signin/google-signin",
+      "@config-plugins/react-native-blob-util",
+      "@config-plugins/react-native-pdf",
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
+        }
+      ],
+      "@react-native-firebase/app",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "ޕްރޮފައިލް ފޮޓޯ ބަދަލުކުރުމަށް ފޮޓޯތަކަށް ވަނުމުގެ ހުއްދަ ބޭނުންވޭ. The app accesses your photos to let you update your profile picture."
+        }
+      ],
+      "expo-apple-authentication",
+      "expo-secure-store",
+      "expo-sqlite",
+      "expo-image",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b15b9fbd-3ed7-4adb-8557-384cae1fde14"
+      }
+    }
+  }
+}

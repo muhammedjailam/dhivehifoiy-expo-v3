@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>704092881798-nning93t19lt4aldnkq41scmdv57gm2t.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.704092881798-nning93t19lt4aldnkq41scmdv57gm2t</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>704092881798-50im1gpajgk1migmvfr4i687fulo8hv7.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA1DAPo9lYW_mOUmuiaOVCEO_6fzc-BhWY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>704092881798</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.xylamtech.books</string>
+	<key>PROJECT_ID</key>
+	<string>booksmv-419720</string>
+	<key>STORAGE_BUCKET</key>
+	<string>booksmv-419720.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:704092881798:ios:afdc6f046360d9cee86207</string>
+</dict>
+</plist>

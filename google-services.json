@@ -1,0 +1,100 @@
+{
+  "project_info": {
+    "project_number": "704092881798",
+    "project_id": "booksmv-419720",
+    "storage_bucket": "booksmv-419720.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704092881798:android:278ee3cc5d876c41e86207",
+        "android_client_info": {
+          "package_name": "com.foiyharu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704092881798-gcjqar1aesm1stejq2l10bjq6lrbgn0r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foiyharu",
+            "certificate_hash": "de38ae3fbc804c31cb93693e8674b1bddc4823d2"
+          }
+        },
+        {
+          "client_id": "704092881798-d2evrrd1mvacdlhi25ljkuaqqm68j64p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBco9WvdDCm5_hJ1k1E0pZmOFGiu3VkbHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704092881798-d2evrrd1mvacdlhi25ljkuaqqm68j64p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704092881798:android:b425fd22e2364755e86207",
+        "android_client_info": {
+          "package_name": "com.xylamtech.books"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704092881798-50im1gpajgk1migmvfr4i687fulo8hv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xylamtech.books",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "704092881798-ra07fnjuhbk6qot6l59etsvp5mqup81o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xylamtech.books",
+            "certificate_hash": "6d64a967197390293ccc16f88f87af1b5503c292"
+          }
+        },
+        {
+          "client_id": "704092881798-u3f7t3bb0ho37u7me11kqah37rbpgvpf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xylamtech.books",
+            "certificate_hash": "de38ae3fbc804c31cb93693e8674b1bddc4823d2"
+          }
+        },
+        {
+          "client_id": "704092881798-d2evrrd1mvacdlhi25ljkuaqqm68j64p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBco9WvdDCm5_hJ1k1E0pZmOFGiu3VkbHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704092881798-d2evrrd1mvacdlhi25ljkuaqqm68j64p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
